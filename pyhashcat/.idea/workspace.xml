@@ -41,7 +41,7 @@
         <entry file="file://$USER_HOME$/Documents/Github/hacking-tools/pyhashcat/pyhashcat/keyGenerator.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+              <caret line="14" column="76" selection-start-line="14" selection-start-column="76" selection-end-line="14" selection-end-column="76" />
               <folding />
             </state>
           </provider>
@@ -70,8 +70,8 @@
       <file leaf-file-name="test_key_generator.py" pinned="false" current-in-tab="true">
         <entry file="file://$USER_HOME$/Documents/Github/hacking-tools/pyhashcat/tests/test_key_generator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.35714287">
-              <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+            <state vertical-scroll-proportion="0.53571427">
+              <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -105,6 +105,8 @@
         <option value="$USER_HOME$/Documents/Github/hacking-tools/pychashcat/tests/test_hash_compare.py" />
         <option value="$USER_HOME$/Documents/Github/hacking-tools/pychashcat/pyhashcat/keyGenerator.py" />
         <option value="$USER_HOME$/Documents/Github/hacking-tools/pychashcat/tests/test_key_generator.py" />
+        <option value="$USER_HOME$/Documents/Github/hacking-tools/pyhashcat/pyhashcat/keyGenerator.py" />
+        <option value="$USER_HOME$/Documents/Github/hacking-tools/pyhashcat/tests/test_key_generator.py" />
       </list>
     </option>
   </component>
@@ -467,14 +469,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Documents/Github/hacking-tools/pyhashcat/pyhashcat/keyGenerator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Documents/Github/hacking-tools/pyhashcat/tests/test_hash_compare.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -485,10 +479,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/Documents/Github/hacking-tools/pyhashcat/pyhashcat/keyGenerator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="76" selection-start-line="14" selection-start-column="76" selection-end-line="14" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$USER_HOME$/Documents/Github/hacking-tools/pyhashcat/tests/test_key_generator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35714287">
-          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+        <state vertical-scroll-proportion="0.53571427">
+          <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
           <folding />
         </state>
       </provider>
