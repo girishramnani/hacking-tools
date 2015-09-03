@@ -1,4 +1,6 @@
 __author__ = 'girish'
+from unittest import TestCase
+import unittest
 
 
 
@@ -22,4 +24,24 @@ class standard_hash_test(object):
     def test_all_special_charactor_hash_compare(self):
         pass
 
+
+from pyhashcat.Hasher import AbstractHasher
+
+class hasher_test(TestCase):
+
+
+    def setUp(self):
+        self.data = "hello_world"
+
+    def test_if_abstract_hasher_raises_error(self):
+        self.assertRaises(TypeError,AbstractHasher)
+
+
+    #just for getting the hang of test driven development
+    def test_algorithm_prop(self):
+        pass
+
+
+if __name__=="__main__":
+    unittest.main()
 
