@@ -20,7 +20,7 @@ class GeneratorTestCase(TestCase):
         self.assertEqual(next(gen),('0',)*4)
 
         for i in range(10**4-1):
-            a = next(gen)
+            next(gen)
         self.assertEqual(next(gen),('a',)*4)
 
 

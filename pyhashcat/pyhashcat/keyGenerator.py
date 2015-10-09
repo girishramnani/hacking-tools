@@ -27,7 +27,6 @@ class source(metaclass=ABCMeta):
 
     def get_word(self,length):
         possible_chars = self.get_domain()
-        word = []
         yield from itertools.product(possible_chars,repeat=length)
 
 
