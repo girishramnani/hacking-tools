@@ -1,4 +1,3 @@
-from abc import ABCMeta
 
 __author__ = 'girish'
 
@@ -17,18 +16,32 @@ Key generator can also take a file as input which will work as a dictionary.
 
 import string
 import itertools
+from abc import ABCMeta,abstractmethod
+
 
 class source(metaclass=ABCMeta):
-    pass
+
+    @abstractmethod
+    def get_domain(self):
+        pass
+
+    def get_word(self,length):
+        possible_chars = self.get_domain()
+        word = []
+        yield from itertools.product(possible_chars,repeat=length)
+
 
 
 class stringSource(source):
 
-    def get_word(self,length):
-        possible_chars = string.ascii_letters
-        word = []
-        yield from itertools.product(possible_chars,repeat=length)
+    def get_domain(self):
+        return string.ascii_letters
 
+
+class numericSource(source):
+
+    def get_domain(self):
+        return string.digits
 
 
 class AbstractKeyGenerator(metaclass=ABCMeta):
@@ -43,32 +56,39 @@ class AbstractKeyGenerator(metaclass=ABCMeta):
         else:
             self.length = length
 
-    def gen_keywords(self,pattern=None,*args,**kwargs):
-        raise NotImplementedError
+    @abstractmethod
+    def gen_keywords(self):
+        pass
+
+    def _gen_keywords(self,generator,pattern=None,max_keys=1000000,*args,**kwargs):
+        temp_max_key = max_keys
+        max_keys = 10**self.length
+
+        if temp_max_key < max_keys:
+            max_keys = temp_max_key
+
+        yield from generator.get_word(self.length)
+
 
 
 class NumericGenerator(AbstractKeyGenerator):
 
-    def __init__(self,length):
-        AbstractKeyGenerator.__init__(length)
+    def gen_keywords(self):
+        return super(NumericGenerator, self)._gen_keywords(numericSource())
 
 
 class CharacterGenerator(AbstractKeyGenerator):
 
-    def __init__(self,length):
-        super(CharacterGenerator, self).__init__(length)
+    def gen_keywords(self):
+        return super(CharacterGenerator, self)._gen_keywords(stringSource())
 
 
+class allSymbolGenerator(AbstractKeyGenerator):
 
-    def gen_keywords(self,generator,pattern=None,max_keys=100000,*args,**kwargs):
+    def gen_keywords(self):
+        yield from NumericGenerator(self.length).gen_keywords()
 
-        for i in range(max_keys):
-            yield generator.get_word(self.length)
-
-
-
-
-
+        yield from CharacterGenerator(self.length).gen_keywords()
 
 
 

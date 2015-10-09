@@ -4,23 +4,30 @@ __author__ = 'girish'
 
 from pyhashcat.keyGenerator import AbstractKeyGenerator
 
-from keyGenerator import stringSource
+from keyGenerator import stringSource,NumericGenerator, allSymbolGenerator
 
 
-class NumericalGeneratorTestCase(TestCase):
+class GeneratorTestCase(TestCase):
 
-
-    def setUp(self):
-        self.small_pattern = "???"
-        self.medium_pattern = "h??l? w??l?"
-        self.num_pattern ="1??"
 
     def test_only_numerical_generator(self):
-        pass
+        self.assertEqual(next(NumericGenerator().gen_keywords()),('0',)*8)
+
+    def test_all_symbol_generator(self):
+        gen = allSymbolGenerator(4).gen_keywords()
+
+
+        self.assertEqual(next(gen),('0',)*4)
+
+        for i in range(10**4-1):
+            a = next(gen)
+        self.assertEqual(next(gen),('a',)*4)
 
 
 
-class stringSourceTest(TestCase):
+
+
+class SourceTest(TestCase):
 
     def setUp(self):
         self.generator = stringSource()
@@ -34,3 +41,10 @@ class stringSourceTest(TestCase):
         self.assertEqual(next(gen),('a',)*5)
         self.assertEqual(next(gen),tuple(['a',]*4+['b']))
 
+
+class regexGeneratorAndSourceTest(TestCase):
+
+    def setUp(self):
+        self.small_pattern = "???"
+        self.medium_pattern = "h??l? w??l?"
+        self.num_pattern ="1??"

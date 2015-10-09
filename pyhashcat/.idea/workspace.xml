@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2175962b-d9b6-4004-a515-1085b228ab06" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sre_yield/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sre_yield/tests/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sre_yield/cachingseq.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sre_yield/fastdivmod.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/sre_test.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sre_yield/tests/test_bigrange.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sre_yield/tests/test_cachingseq.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sre_yield/tests/test_fastdivmod.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sre_yield/tests/test_slicing.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sre_yield/tests/test_sre_yield.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sre_yield/tests/test_sre_yield_slow.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pyhashcat/Hasher.py" afterPath="$PROJECT_DIR$/pyhashcat/Hasher.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pyhashcat/keyGenerator.py" afterPath="$PROJECT_DIR$/pyhashcat/keyGenerator.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test_key_generator.py" afterPath="$PROJECT_DIR$/tests/test_key_generator.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="pychashcat.iws" />
@@ -29,15 +21,18 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/pychashcat$Unittest_hasher_test_test_md5_hash.coverage" NAME="Unittest hasher_test.test_md5_hash Coverage Results" MODIFIED="1444363408960" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/pychashcat$w2_1.coverage" NAME="w2-1 Coverage Results" MODIFIED="1442689660564" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
-    <SUITE FILE_PATH="coverage/pychashcat$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1443262237162" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/pychashcat$worldcup.coverage" NAME="worldcup Coverage Results" MODIFIED="1442686952084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/pychashcat$Unittest_NumericalGeneratorTestCase_test_only_numerical_generator.coverage" NAME="Unittest NumericalGeneratorTestCase.test_only_numerical_generator Coverage Results" MODIFIED="1444421898932" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/pychashcat$Unittest_CachingFuncSequenceTest_testLimits.coverage" NAME="Unittest CachingFuncSequenceTest.testLimits Coverage Results" MODIFIED="1444381393621" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sre_yield/tests" />
-    <SUITE FILE_PATH="coverage/pychashcat$Unittests_in_hasher_test.coverage" NAME="Unittests in hasher_test Coverage Results" MODIFIED="1441304637424" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../pychashcat/tests" />
     <SUITE FILE_PATH="coverage/pychashcat$Unittest_stringGeneratorTest_test_answer.coverage" NAME="Unittest stringGeneratorTest.test_answer Coverage Results" MODIFIED="1444362639440" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
-    <SUITE FILE_PATH="coverage/pychashcat$Unittest_CachingFuncSequenceTest_testIncFunc.coverage" NAME="Unittest CachingFuncSequenceTest.testIncFunc Coverage Results" MODIFIED="1444381410911" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sre_yield/tests" />
-    <SUITE FILE_PATH="coverage/pychashcat$Unittest_SlowYieldTest_testDotStarCase.coverage" NAME="Unittest SlowYieldTest.testDotStarCase Coverage Results" MODIFIED="1444381459302" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sre_yield/tests" />
     <SUITE FILE_PATH="coverage/pychashcat$w2.coverage" NAME="w2 Coverage Results" MODIFIED="1443261879512" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/pychashcat$Unittest_stringGeneratorTest_test_length.coverage" NAME="Unittest stringGeneratorTest.test_length Coverage Results" MODIFIED="1444362548854" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/pychashcat$Unittest_GeneratorTestCase_test_all_symbol_generator.coverage" NAME="Unittest GeneratorTestCase.test_all_symbol_generator Coverage Results" MODIFIED="1444423155211" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/pychashcat$Unittest_GeneratorTestCase_test_all_symbol_generator__1_.coverage" NAME="Unittest GeneratorTestCase.test_all_symbol_generator (1) Coverage Results" MODIFIED="1444422704730" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/pychashcat$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1443262237162" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pychashcat$worldcup.coverage" NAME="worldcup Coverage Results" MODIFIED="1442686952084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/pychashcat$Unittests_in_hasher_test.coverage" NAME="Unittests in hasher_test Coverage Results" MODIFIED="1441304637424" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../pychashcat/tests" />
+    <SUITE FILE_PATH="coverage/pychashcat$Unittest_CachingFuncSequenceTest_testIncFunc.coverage" NAME="Unittest CachingFuncSequenceTest.testIncFunc Coverage Results" MODIFIED="1444381410911" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sre_yield/tests" />
+    <SUITE FILE_PATH="coverage/pychashcat$Unittest_SlowYieldTest_testDotStarCase.coverage" NAME="Unittest SlowYieldTest.testDotStarCase Coverage Results" MODIFIED="1444381459302" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sre_yield/tests" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -52,29 +47,9 @@
         <entry file="file://$PROJECT_DIR$/pyhashcat/keyGenerator.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sre_yield/tests/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test_cachingseq.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sre_yield/tests/test_cachingseq.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="59" column="27" selection-start-line="59" selection-start-column="27" selection-end-line="59" selection-end-column="27" />
+              <caret line="65" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
               <folding>
-                <element signature="e#607#622#0" expanded="true" />
+                <element signature="e#663#676#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -92,21 +67,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fastdivmod.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="fastdivmod.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sre_yield/fastdivmod.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8595944">
-              <caret line="75" column="0" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test_sre_yield_slow.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sre_yield/tests/test_sre_yield_slow.py">
-          <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="28" column="19" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
+              <caret line="75" column="0" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -122,14 +87,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_bigrange.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sre_yield/tests/test_bigrange.py">
+      <file leaf-file-name="test_command_line.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/test_command_line.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="e#607#617#0" expanded="true" />
-              </folding>
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_hash_compare.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/test_hash_compare.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -144,11 +117,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_command_line.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/test_command_line.py">
+      <file leaf-file-name="test_key_generator.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tests/test_key_generator.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="1.2">
+              <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="case.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/anaconda3/lib/python3.4/unittest/case.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="577" column="0" selection-start-line="577" selection-start-column="0" selection-end-line="577" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Hasher.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pyhashcat/Hasher.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -179,13 +172,13 @@
         <option value="$PROJECT_DIR$/tests/w2-1.py" />
         <option value="$PROJECT_DIR$/tests/w2.py" />
         <option value="$PROJECT_DIR$/test2.py" />
-        <option value="$PROJECT_DIR$/pyhashcat/keyGenerator.py" />
-        <option value="$PROJECT_DIR$/pyhashcat/Hasher.py" />
         <option value="$PROJECT_DIR$/tests/test_hash_compare.py" />
         <option value="$PROJECT_DIR$/pyhashcat/main.py" />
-        <option value="$PROJECT_DIR$/tests/test_key_generator.py" />
         <option value="$PROJECT_DIR$/tests/sre_test.py" />
         <option value="$PROJECT_DIR$/sre_yield/__init__.py" />
+        <option value="$PROJECT_DIR$/pyhashcat/Hasher.py" />
+        <option value="$PROJECT_DIR$/pyhashcat/keyGenerator.py" />
+        <option value="$PROJECT_DIR$/tests/test_key_generator.py" />
       </list>
     </option>
   </component>
@@ -198,9 +191,9 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="45" />
-    <option name="y" value="-4" />
+    <option name="y" value="24" />
     <option name="width" value="1321" />
-    <option name="height" value="772" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -225,7 +218,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -293,6 +285,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -308,53 +301,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Unittest SlowYieldTest.testDotStarCase">
-    <configuration default="false" name="Unittest stringGeneratorTest.test_answer" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="pychashcat" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tests/test_key_generator.py" />
-      <option name="CLASS_NAME" value="stringGeneratorTest" />
-      <option name="METHOD_NAME" value="test_answer" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_METHOD" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PUREUNITTEST" value="true" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Unittest hasher_test.test_md5_hash" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="pychashcat" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tests/test_hash_compare.py" />
-      <option name="CLASS_NAME" value="hasher_test" />
-      <option name="METHOD_NAME" value="test_md5_hash" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_METHOD" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PUREUNITTEST" value="true" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python tests.Unittest GeneratorTestCase.test_all_symbol_generator">
     <configuration default="false" name="Unittest CachingFuncSequenceTest.testLimits" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -415,6 +362,52 @@
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sre_yield/tests/test_sre_yield_slow.py" />
       <option name="CLASS_NAME" value="SlowYieldTest" />
       <option name="METHOD_NAME" value="testDotStarCase" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_METHOD" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittest GeneratorTestCase.test_all_symbol_generator" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="pychashcat" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tests/test_key_generator.py" />
+      <option name="CLASS_NAME" value="GeneratorTestCase" />
+      <option name="METHOD_NAME" value="test_all_symbol_generator" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_METHOD" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittest GeneratorTestCase.test_all_symbol_generator (1)" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="pychashcat" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tests/test_key_generator.py" />
+      <option name="CLASS_NAME" value="GeneratorTestCase" />
+      <option name="METHOD_NAME" value="test_all_symbol_generator" />
       <option name="FOLDER_NAME" value="" />
       <option name="TEST_TYPE" value="TEST_METHOD" />
       <option name="PATTERN" value="" />
@@ -612,20 +605,44 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittest stringGeneratorTest.test_answer" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittest hasher_test.test_md5_hash" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest CachingFuncSequenceTest.testLimits" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest CachingFuncSequenceTest.testIncFunc" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittest SlowYieldTest.testDotStarCase" />
+    <configuration default="false" name="Unittest NumericalGeneratorTestCase.test_only_numerical_generator" type="tests" factoryName="Unittests" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="pychashcat" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tests/test_key_generator.py" />
+      <option name="CLASS_NAME" value="NumericalGeneratorTestCase" />
+      <option name="METHOD_NAME" value="test_only_numerical_generator" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_METHOD" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <list size="6">
+      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittest NumericalGeneratorTestCase.test_only_numerical_generator" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittest CachingFuncSequenceTest.testLimits" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest CachingFuncSequenceTest.testIncFunc" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest SlowYieldTest.testDotStarCase" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittest GeneratorTestCase.test_all_symbol_generator" />
+      <item index="5" class="java.lang.String" itemvalue="Python tests.Unittest GeneratorTestCase.test_all_symbol_generator (1)" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittest SlowYieldTest.testDotStarCase" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittest CachingFuncSequenceTest.testIncFunc" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest CachingFuncSequenceTest.testLimits" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest hasher_test.test_md5_hash" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittest stringGeneratorTest.test_answer" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittest GeneratorTestCase.test_all_symbol_generator" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittest GeneratorTestCase.test_all_symbol_generator (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest SlowYieldTest.testDotStarCase" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest CachingFuncSequenceTest.testIncFunc" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittest CachingFuncSequenceTest.testLimits" />
       </list>
     </recent_temporary>
   </component>
@@ -646,33 +663,39 @@
       <option name="project" value="LOCAL" />
       <updated>1444381083990</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added the regex parser">
+      <created>1444401296499</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1444401296499</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="45" y="-4" width="1321" height="772" extended-state="6" />
-    <editor active="false" />
+    <frame x="45" y="24" width="1321" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935917" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935917" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3919523" sideWeight="0.48523846" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.54545456" sideWeight="0.51778954" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16275549" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16275549" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935917" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.54545456" sideWeight="0.48221046" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3922204" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32488823" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -688,7 +711,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added the base data" />
-    <option name="LAST_COMMIT_MESSAGE" value="added the base data" />
+    <MESSAGE value="added the regex parser" />
+    <option name="LAST_COMMIT_MESSAGE" value="added the regex parser" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -703,24 +727,24 @@
           <line>19</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/test_key_generator.py</url>
+          <line>22</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="6" />
+      <option name="time" value="12" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tests/test_hash_compare.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pyhashcat/keyGenerator.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#663#676#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -764,7 +788,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#663#676#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -808,7 +834,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
-          <folding />
+          <folding>
+            <element signature="e#663#676#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -844,7 +872,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="14" column="76" selection-start-line="14" selection-start-column="76" selection-end-line="14" selection-end-column="76" />
-          <folding />
+          <folding>
+            <element signature="e#663#676#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -888,7 +918,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="14" column="76" selection-start-line="14" selection-start-column="76" selection-end-line="14" selection-end-column="76" />
-          <folding />
+          <folding>
+            <element signature="e#663#676#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -932,7 +964,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="14" column="76" selection-start-line="14" selection-start-column="76" selection-end-line="14" selection-end-column="76" />
-          <folding />
+          <folding>
+            <element signature="e#663#676#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -986,52 +1020,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pyhashcat/Hasher.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/test_key_generator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/test_hash_compare.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyhashcat/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyhashcat/keyGenerator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sre_yield/tests/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/sre_test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1044,7 +1033,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#607#617#0" expanded="true" />
+            <element signature="e#607#617#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1054,7 +1043,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="59" column="27" selection-start-line="59" selection-start-column="27" selection-end-line="59" selection-end-column="27" />
           <folding>
-            <element signature="e#607#622#0" expanded="true" />
+            <element signature="e#607#622#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1079,8 +1068,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sre_yield/fastdivmod.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8595944">
+        <state vertical-scroll-proportion="0.0">
           <caret line="75" column="0" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/sre_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1089,6 +1086,56 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_hash_compare.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyhashcat/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyhashcat/Hasher.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyhashcat/keyGenerator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="65" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+          <folding>
+            <element signature="e#663#676#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.4/unittest/case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="577" column="0" selection-start-line="577" selection-start-column="0" selection-end-line="577" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_key_generator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.2">
+          <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
           <folding />
         </state>
       </provider>
