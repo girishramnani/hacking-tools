@@ -15,6 +15,8 @@ def parse_args(args):
     input_group.add_argument("-b","--both",metavar="N",type=int,help="use both having N length")
     input_group.add_argument("-r","--regex",metavar="N",type=str,help="use a regex for the desired query set (beta) ")
 
+    parser.add_argument("-v","--verbose",action="store_true",default=False)
+
     return parser.parse_args(args)
 
 
