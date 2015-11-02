@@ -1,10 +1,12 @@
 __author__ = 'girish'
 
-
+import time
 import sys
 import cli
 import keyGenerator
 import Hasher
+
+
 
 def choose_key_generator(arguments):
 
@@ -29,15 +31,40 @@ def choose_hasher(arguments):
     return hasher
 
 
+
 if __name__=="__main__":
-    arguments = cli.parse_args(sys.argv)
+    arguments = cli.parse_args(sys.argv[1:]) # removing the filename
     hasher = choose_hasher(arguments)
     key_generator = choose_key_generator(arguments)
 
     desired_hash = arguments.hash
 
+    #matric
+    init_time = time.time()
+    keys=0
+
+
     for key in key_generator.gen_keywords():
+
+
+        joined_key = "".join(key)
+        output_hash = hasher.getHash(joined_key,True)
+        keys+=1
+
         if arguments.verbose :
-            print("comparing {key} ".format(key=key))
+            print("comparing {key} as {hash} with {d_hash}".format(key=joined_key,hash=output_hash,d_hash= desired_hash))
+
+
+        if output_hash == desired_hash :
+            print()
+            print("The key you are looking for is {}".format(joined_key))
+            break
+    else:
+        print("The key for the desired hash wasnt found")
+    total_time =time.time() -init_time
+    print()
+    print("Time elapsed : {} s".format(total_time) )
+    print("Keys compared : {} ".format(keys))
+    print("Keys per second : {}".format(keys/(total_time)))
 
 

@@ -3,7 +3,7 @@ import argparse
 
 def parse_args(args):
     parser = argparse.ArgumentParser(description="reverse hashes of passwords")
-    parser.add_argument('hash',type=str,help="The hash you want to reverse")
+    parser.add_argument('--hash',type=str,help="The hash you want to reverse",required=True)
     algorithm_group = parser.add_mutually_exclusive_group(required=True)
     help_s = "Use the {} hashing algorithm"
 
