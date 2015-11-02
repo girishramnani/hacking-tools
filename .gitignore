@@ -1,0 +1,4 @@
+*.pyc
+pyhashcat/.idea/*
+*.py.bak
+__pycache__
