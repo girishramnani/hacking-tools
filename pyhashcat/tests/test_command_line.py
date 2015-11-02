@@ -7,7 +7,7 @@ class commandLineTest(unittest.TestCase):
 
 
     def test_algorithm_group(self):
-        
+
 
         self.assertEqual(cli.parse_args(["--sha1","-c","6","hash"]).sha1,True)
 
