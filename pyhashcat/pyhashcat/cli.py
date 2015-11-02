@@ -8,8 +8,8 @@ def parse_args(args):
     help_s = "Use the {} hashing algorithm"
 
     algorithm_group.add_argument("--md5",action="store_true",default=False,help=help_s.format("md5"))
-    algorithm_group.add_argument("--sha1",action="store_true",default=help_s.format("sha1"))
-    algorithm_group.add_argument("--sha256",action="store_true",default=help_s.format("sha256"))
+    algorithm_group.add_argument("--sha1",action="store_true",default=False,help=help_s.format("sha1"))
+    algorithm_group.add_argument("--sha256",action="store_true",default=False,help=help_s.format("sha256"))
 
     input_group = parser.add_mutually_exclusive_group(required=True)
     input_group.add_argument("-n","--num",metavar='N',type=int,help="only use number having N length")
