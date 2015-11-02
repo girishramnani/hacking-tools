@@ -1,7 +1,7 @@
 __author__ = 'girish'
 import argparse
 
-def parse_args(args=[]):
+def parse_args(args):
     parser = argparse.ArgumentParser(description="reverse hashes of passwords")
     parser.add_argument('hash',type=str,help="The hash you want to reverse")
     algorithm_group = parser.add_mutually_exclusive_group(required=True)
@@ -15,11 +15,6 @@ def parse_args(args=[]):
     input_group.add_argument("-b","--both",metavar="N",type=int,help="use both having N length")
     input_group.add_argument("-r","--regex",metavar="N",type=str,help="use a regex for the desired query set (beta) ")
 
+    return parser.parse_args(args)
 
 
-    return parser
-
-parser =parse_args()
-args =parser.parse_args(["--sha1","-c","6","girsih"])
-
-print(args)
