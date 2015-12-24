@@ -1,3 +1,3 @@
-redis
+asyncio_redis
 aiohttp
 cchardet

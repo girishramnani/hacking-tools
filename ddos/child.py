@@ -1,5 +1,7 @@
 import asyncio
 import aiohttp
+import redis
+from config import LOG_INTERVAL
 
 class Child(object):
 
@@ -29,7 +31,7 @@ class Child(object):
         while True:
             print("Count : ",self.count,"\r",end="")
             self.count=0
-            await asyncio.sleep(2)
+            await asyncio.sleep(LOG_INTERVAL)
 
 
 
