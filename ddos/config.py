@@ -8,4 +8,4 @@ REQ_KEY = "REQS"
 # considering use of a key to kill the child by the child
 KILL_KEY = "KILL"
 
-LOG_INTERVAL = 5
+LOG_INTERVAL = 2

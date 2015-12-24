@@ -12,7 +12,7 @@ class Child(object):
 
     def __init__(self,id,url):
         self.id = id+"-"+REQ_KEY
-        print(self.id)
+        # print(self.id)
         # self.connection = redis.Connection()
         self.url = url
         self.loop = asyncio.get_event_loop()
@@ -50,7 +50,7 @@ class Child(object):
         # above will block until something is published
 
         self.clean_up()
-        
+
 
 
 
